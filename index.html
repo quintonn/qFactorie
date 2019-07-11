@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>qFactorie</title>
+    <meta name="description" content="Home of something good">
+    <meta name="viewport" content="width=device-width">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+</head>
+<html>
+<body>
+
+    <div class="centerContent">
+        <h1 class="mainHeading">qFactorie</h1>
+        <p>Coming soon...</p>
+    </div>
+
+    <style>
+        #forkongithub a {
+            background: #000;
+            color: #fff;
+            text-decoration: none;
+            font-family: arial,sans-serif;
+            text-align: center;
+            font-weight: bold;
+            padding: 5px 40px;
+            font-size: 1rem;
+            line-height: 2rem;
+            position: relative;
+            transition: 0.5s;
+        }
+
+            #forkongithub a:hover {
+                background: #c11;
+                color: #fff;
+            }
+
+            #forkongithub a::before, #forkongithub a::after {
+                content: "";
+                width: 100%;
+                display: block;
+                position: absolute;
+                top: 1px;
+                left: 0;
+                height: 1px;
+                background: #fff;
+            }
+
+            #forkongithub a::after {
+                bottom: 1px;
+                top: auto;
+            }
+
+        @media screen and (min-width:800px) {
+            #forkongithub {
+                position: absolute;
+                display: block;
+                top: 0;
+                right: 0;
+                width: 200px;
+                overflow: hidden;
+                height: 200px;
+                z-index: 9999;
+            }
+
+                #forkongithub a {
+                    width: 200px;
+                    position: absolute;
+                    top: 60px;
+                    right: -60px;
+                    transform: rotate(45deg);
+                    -webkit-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    -moz-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                    box-shadow: 4px 4px 10px rgba(0,0,0,0.8);
+                }
+        }
+    </style><span id="forkongithub"><a href="https://github.com/codepo8/css-fork-on-github-ribbon" target="_blank">Fork me on GitHub</a></span>
+
+    <style>
+
+        html, body {
+            background-color: rgb( 33, 43, 49);
+            color: white;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .centerContent {
+            padding-top: 100px;
+            text-align: center;
+            font-family: "Nunito", "sans-serif";
+        }
+
+            .centerContent > p {
+                font-size: 2em;
+            }
+
+        .mainHeading {
+            letter-spacing: 0.3rem;
+            width: calc(100% + 0.3rem);
+            font-size: 3.625em;
+            line-height: 1.5;
+            font-weight: 400;
+        }
+    </style>
+</body>
+</html>
